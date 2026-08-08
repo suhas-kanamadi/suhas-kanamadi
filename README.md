@@ -14,7 +14,7 @@ I'm drawn to problems where correctness is the hard part rather than throughput 
 
 A userspace union filesystem that merges a read-only lower layer and a writable upper layer into one mount point. Implements copy-on-write promotion at `open()` and `.wh.` whiteout markers for deletion over immutable storage — the same mechanics behind Docker's layered images. Built with three others; I worked on the copy-on-write and whiteout layers.
 
-**[resume-ranking-pipeline](https://github.com/suhas-kanamadi/distributed-resume-ranking-pipeline)** &nbsp;·&nbsp; Python, FastAPI, Kafka, FAISS
+**[distributed-resume-ranking-pipeline](https://github.com/suhas-kanamadi/distributed-resume-ranking-pipeline)** &nbsp;·&nbsp; Python, FastAPI, Kafka, FAISS
 
 A distributed ATS pipeline — spaCy structured extraction, sentence-transformer embeddings, FAISS retrieval, and a hybrid five-signal ranker, decomposed into independent services. Load testing at 200 concurrent connections surfaced a 2.76 MiB-per-response serialization bottleneck that dominated latency; the fix was bounding result sets at the query layer.
 
