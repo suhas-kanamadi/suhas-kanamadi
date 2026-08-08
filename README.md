@@ -1,6 +1,7 @@
 ## Suhas Kanamadi
 
-Final-year Computer Science student at PES University, Bangalore.
+Final-year Computer Science student at PES University, Bangalore, focused on
+systems programming, distributed systems and applied AI.
 
 I'm drawn to problems where correctness is the hard part rather than throughput — filesystems, distributed pipelines, systems whose failure mode is silent rather than loud. Most of what I build starts as "how does this actually work underneath" and ends as a smaller version of the thing.
 
